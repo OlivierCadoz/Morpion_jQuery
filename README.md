@@ -39,7 +39,7 @@ sign = true;`
 
 Voici le code javascript en entier:
 
-`var sign = true;
+```var sign = true;
 
 
 $(document).ready(function(){
@@ -61,4 +61,4 @@ $(document).ready(function(){
     $('.square').html('').addClass('empty').removeClass('full');
     sign = true;
   });
-});`
+});```
