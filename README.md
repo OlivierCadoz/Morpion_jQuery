@@ -5,7 +5,7 @@ J'ai en premier permis d'afficher les charactères 'X' et 'O' de manière altern
  en créant une variable booléenne, et associant chaque charactère à une
  des deux valeurs via une condition:
 
-sign = true;
+`sign = true;
 ...
 if (sign === true){
   $(this).html('<p>X</p>');  -->cela positionnera le charactère
@@ -14,7 +14,7 @@ if (sign === true){
 else if (sign === false){
   $(this).html('<p>O</p>');
   sign = true;
-}
+}`
 
 Puis j'ai créer un bouton permettant de nettoyer la grille de tous charactères:
 
