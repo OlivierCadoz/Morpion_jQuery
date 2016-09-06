@@ -13,7 +13,7 @@ $(document).ready(function(){
         sign = true;
       }
     }
-
+    
   });
 
   $('.clear').click(function(){
