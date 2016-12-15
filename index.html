@@ -9,23 +9,29 @@
 
     <div class="morpion">
       <div class="rectangle">
-        <div class="square up left blu empty"></div>
-        <div class="square up empty"></div>
-        <div class="square up right bru empty"></div>
+        <div class="square up left blu empty" id="a" onclick="check"></div>
+        <div class="square up empty" id="b" onclick="check"></div>
+        <div class="square up right bru empty" id="c" onclick="check"></div>
       </div>
       <div class="rectangle">
-        <div class="square left empty"></div>
-        <div class="square empty"></div>
-        <div class="square right empty"></div>
+        <div class="square left empty" id="d" onclick="check"></div>
+        <div class="square empty" id="e" onclick="check"></div>
+        <div class="square right empty" id="f" onclick="check"></div>
       </div>
       <div class="rectangle">
-        <div class="square down left dlu empty"></div>
-        <div class="square down empty"></div>
-        <div class="square down right dru empty"></div>
+        <div class="square down left dlu empty" id="g" onclick="check"></div>
+        <div class="square down empty" id="h" onclick="check"></div>
+        <div class="square down right dru empty" id="i" onclick="check"></div>
       </div>
     </div>
 
     <a href="#" class="clear">clear tab</a>
+    <p class="zero">
+      Victoire X: 0
+      Défaite X:  0<br><br>
+      Victoire O: 0 
+      Défaite O:  0
+    </p>
 
     <script type="text/javascript" src="js/jQuery.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
