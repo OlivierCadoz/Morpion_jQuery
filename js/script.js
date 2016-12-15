@@ -29,7 +29,7 @@ var check = function(){
       defX++;
     }
     // On affiche le nombre de victoires et de défaites par joueurs:
-    $('.zero').html('Victoire X: '+vicX+' Défaite X:  '+defX+'<br><br>Victoire O: '+vicO+' Défaite O:  '+defO);
+    $('.zero').html('Victoire X: '+vicX+' | Défaite X:  '+defX+'<br><br>Victoire O: '+vicO+' | Défaite O:  '+defO);
   }
 };
 
