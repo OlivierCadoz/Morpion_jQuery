@@ -12,10 +12,6 @@ body{
   margin: 0;
 }
 
-/*morpion*/
-.morpion{
-  margin: auto;
-}
 
 /*rectangle*/
 .rectangle{
@@ -92,14 +88,18 @@ body{
 .zero{
   font-family: sans-serif;
   color: #999999;
-  text-align: center;
 }
 
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 801px) {
   body{
     justify-content: center;
     align-items: center;
+  }
+
+  /*morpion*/
+  .morpion{
+    margin: auto;
   }
 
   .square{
@@ -124,8 +124,13 @@ body{
  @media screen and (max-width: 800px) {
   body{
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+  }
+
+  /*morpion*/
+  .morpion{
+    margin-top: 8vh;
   }
 
   .square{
