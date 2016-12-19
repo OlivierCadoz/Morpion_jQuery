@@ -11,7 +11,7 @@ var a = '', b = '', c = '', d = '', e = '', f = '', g = '', h = '', i = '';
 
 
 // Définit le nombre de victoires, défaites, matchs nuls:
-var vicX = 0, vicO = 0, defX = 0, defO = 0, nul = 0;
+var vicX = 0, vicO = 0;
 
 
 // on regarde s'il n'y a pas de gagnant à chaque click:
@@ -22,14 +22,12 @@ var check = function(){
     // on incrémente les victoires et le défaites selon le joueur qui gagne:
     if (a === 'rouge' && a == b && a == c || d === 'rouge' && d == e && d == f || g === 'rouge' && g == h && g == i || a === 'rouge' && a == d && a == g || b === 'rouge' && b == e && b == h || c === 'rouge' && c == f && c == i || a === 'rouge' && a == e && a == i || c === 'rouge' && c == e && c == g) {
       vicX++;
-      defO++;
     }
     else {
       vicO++;
-      defX++;
     }
     // On affiche le nombre de victoires et de défaites par joueurs:
-    $('.zero').html('Victoire X: '+vicX+' | Défaite X:  '+defX+'<br><br>Victoire O: '+vicO+' | Défaite O:  '+defO);
+    $('.zero').html('Victoire X: '+vicX+' | Victoire O: '+vicO);
   }
 };
 
